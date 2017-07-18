@@ -1,4 +1,4 @@
-package com.example.susyimes.cmakeuninstallfeedback;
+package com.fantastic.susyimes.cmakeuninstallfeedback;
 
 import android.text.TextUtils;
 import android.util.Log;

@@ -12,7 +12,7 @@
 static jboolean IS_COPY = JNI_TRUE;
 
 JNIEXPORT jint JNICALL
- Java_com_example_susyimes_cmakeuninstallfeedback_FeedbackUtils_init(JNIEnv *env, jobject thiz, jint is_fork, jstring dirStr, jstring data, jstring brand, jint api_level, jstring process_name) {
+ Java_com_fantastic_susyimes_cmakeuninstallfeedback_FeedbackUtils_init(JNIEnv *env, jobject thiz, jint is_fork, jstring dirStr, jstring data, jstring brand, jint api_level, jstring process_name) {
 	int forkProcess = 0;
 	if (is_fork == 0 || 0 == (forkProcess = fork())) {
 
@@ -20,7 +20,7 @@ JNIEXPORT jint JNICALL
 
 			int success = 1;
 			jint sdkInt = 0;
-			jclass class_id = (*env)->FindClass(env, "com/example/susyimes/cmakeuninstallfeedback/AppProcessEntry");
+			jclass class_id = (*env)->FindClass(env, "com/fantastic/susyimes/cmakeuninstallfeedback/AppProcessEntry");
 			if (class_id == NULL) {
 				success = 0;
 			}

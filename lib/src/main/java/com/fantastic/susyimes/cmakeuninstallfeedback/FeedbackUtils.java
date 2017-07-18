@@ -1,4 +1,4 @@
-package com.example.susyimes.cmakeuninstallfeedback;
+package com.fantastic.susyimes.cmakeuninstallfeedback;
 
 import android.content.Context;
 import android.content.pm.ApplicationInfo;

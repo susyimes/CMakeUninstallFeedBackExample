@@ -23,7 +23,7 @@ allprojects {
 Add to app build.gradle
 
 ```
-compile 'com.github.susyimes:CMakeUninstallFeedBackExample:1.0.0
+compile 'com.github.susyimes:CMakeUninstallFeedBackExample:1.0.1
 ```
 
 #3

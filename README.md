@@ -1,5 +1,5 @@
 # CMakeUninstallFeedBackExample
-new version of cmake ndk
+new version of cmake ndk work for when android application uninstall open a browers to feedback. just work on 5.0- 
 [![](https://www.jitpack.io/v/susyimes/CMakeUninstallFeedBackExample.svg)](https://www.jitpack.io/#susyimes/CMakeUninstallFeedBackExample)
 # Usage 
 
